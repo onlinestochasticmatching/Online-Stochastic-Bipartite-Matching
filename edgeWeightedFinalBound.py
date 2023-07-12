@@ -1,7 +1,6 @@
 import math
 import numpy as np
 
-
 def g(x,theta):
 	return (1 - (1-theta)*(x/(1-theta) - math.floor(x/(1-theta))) ) * (theta ** math.floor(x/(1-theta)))
 
